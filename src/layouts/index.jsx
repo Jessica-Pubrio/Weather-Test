@@ -27,7 +27,6 @@ export default function Layout() {
   }, []);
 
   const onChange = (checked) => {
-    console.log(`switch to ${checked}`);
     setStyleVariables(checked ? 'container-night' : '');
   };
 

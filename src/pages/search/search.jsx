@@ -13,7 +13,6 @@ const Search = ({getWeatherInfo, styleVariables, searchLoading}) => {
     const debouncedSearch = useRef(_.debounce(getWeatherInfo, 500));
 
     useEffect(() => {
-        console.log('search');
         getWeatherInfo('Singapore');
     }, []);
 
