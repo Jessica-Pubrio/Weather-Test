@@ -11,7 +11,12 @@ export default function Layout() {
   const [weatherInfo, setWeatherInfo] = useState(null);
   const [searchLoading, setSearchLoading] = useState(false);
   const [loadingId, setLoadingId] = useState(null);
-  
+
+//write page title
+  useEffect(() => {
+    document.title = 'Weather App';
+  }, []);
+
 //toggle styles based on time
   const [styleVariables, setStyleVariables] = useState('');
   useEffect(() => {
@@ -21,9 +26,9 @@ export default function Layout() {
       const newStyle = isDaytime ? '' : 'container-night';
       setStyleVariables(newStyle);
     };
-    toggleStyle(); 
+    toggleStyle();
     const intervalId = setInterval(toggleStyle, 60000);  // 每分钟检查一次
-    return () => clearInterval(intervalId); 
+    return () => clearInterval(intervalId);
   }, []);
 
   const onChange = (checked) => {
@@ -53,12 +58,12 @@ export default function Layout() {
     <div className={`${styles.container} ${styles[styleVariables]}`}>
       <Switch value={styleVariables} onChange={onChange} />
       <Search getWeatherInfo={getWeatherInfo} styleVariables={styleVariables} searchLoading={searchLoading} />
-      <Panel styleVariables={styleVariables} 
-             getWeatherInfo={getWeatherInfo} 
-             weatherInfo={weatherInfo} 
+      <Panel styleVariables={styleVariables}
+             getWeatherInfo={getWeatherInfo}
+             weatherInfo={weatherInfo}
              loadingId={loadingId}
             />
-     
+
     </div>
   );
 }

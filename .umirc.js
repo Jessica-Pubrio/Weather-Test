@@ -1,6 +1,5 @@
 
 export default {
-    icons: { autoInstall: {} }, 
-
-  };
-  
+    icons: { autoInstall: {} },
+    links: [{ rel: 'icon', href: '/favicon.ico' }]
+};
