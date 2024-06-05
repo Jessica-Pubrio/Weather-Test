@@ -1,0 +1,126 @@
+
+.search{
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:0 20px;
+    margin-top: 25px;
+    margin-bottom:112px;
+    .searchBtn{
+        margin-left: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 60px;
+        height: 60px;
+        border-radius: 20px;
+        background: #6C40B5;
+        cursor: pointer;
+    }
+    :global {
+        .ant-input-affix-wrapper{
+        width: 620px;
+        display: flex;
+        flex-direction: column;
+        height:60px;
+        border-radius: 20px;
+            &:hover{
+            border: 1px solid #FFFFFF80;
+            }
+            &::before{
+            display: none;
+            }
+        .ant-input-prefix{
+            height:12px;
+            margin:3px 0 0 16px;
+            font-family: Noto Sans;
+            font-size: 10px;
+            font-weight: 400;
+            line-height: 13.62px;
+            text-align: left;
+            color: #00000066;
+        }
+        }
+        .ant-input{
+          height: 100%;
+          margin-left: 16px;
+          margin-bottom: 8px;
+          font-family: Noto Sans;
+          font-size: 16px;
+          font-weight: 400;
+          line-height: 21.79px;
+          text-align: left;
+          color: #000000;
+        }
+        .ant-input-outlined{
+          background: #FFFFFF33;
+          border:0;
+          &:focus-within{
+            border: 1px solid #FFFFFF80;
+            box-shadow: none;
+        }
+        
+      }
+    }
+}
+.searchNight{
+    .searchBtn{
+      background: #28124D;
+    }
+    :global {
+      .ant-input-affix-wrapper{
+          &:hover{
+            border: 1px solid #1A1A1A80;
+            }
+        .ant-input-prefix{
+          color: #FFFFFF66;
+        }
+      }
+      .ant-input{
+        color: #fff!important;
+      }
+      .ant-input-outlined{
+        background: #1A1A1A80;
+        border:0;
+        &:focus-within{
+          border: 1px solid #1A1A1A80;
+          box-shadow: none;
+        }
+      }
+    }
+}
+@media (max-width: 769px) {
+  .search{
+    margin-top: 45px;
+    margin-bottom:139px;
+    .searchBtn{
+      margin-left: 11px;
+      width: 40px;
+      height: 40px;
+      border-radius: 8px;
+      svg{
+        width:26px;
+        height:26px;
+      }
+    }
+    :global {
+      .ant-input-affix-wrapper{
+        width: 85%;
+        height:40px;
+        border-radius: 8px;
+        .ant-input-prefix{
+          margin:0;
+          font-size: 8px;
+          line-height: 10.9px;
+        }
+        .ant-input{
+          margin-left: 0;
+          font-size: 12px;
+          font-weight: 400;
+          line-height: 16.34px;
+        }
+      }
+    }
+  }
+}
