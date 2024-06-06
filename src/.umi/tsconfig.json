@@ -27,7 +27,7 @@
         "src/.umi/*"
       ],
       "umi": [
-        "/Users/jiangxue/FrontEnd/React-weatherTest/node_modules/.pnpm/registry.npmjs.org+umi@4.2.9_@babel+core@7.24.6_@types+react@18.3.3_eslint@8.57.0_prettier@3._yfjlzlzlvx5ilry3twaep7vjpu/node_modules/umi"
+        "/Users/jiangxue/FrontEnd/React-weatherTest/node_modules/.pnpm/registry.npmjs.org+umi@4.2.9_@babel+core@7.24.6_eslint@8.57.0_prettier@3.3.0_react-dom@18.3.1_y2hz6tl5b7px5o76xirf6t6oxq/node_modules/umi"
       ],
       "umi/typings": [
         "src/.umi/typings"

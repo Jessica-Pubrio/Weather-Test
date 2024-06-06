@@ -11,7 +11,7 @@ export { Icon } from '/Users/jiangxue/FrontEnd/React-weatherTest/src/.umi/plugin
 export { createBrowserHistory, createHashHistory, createMemoryHistory, Helmet, HelmetProvider, createSearchParams, generatePath, matchPath, matchRoutes, Navigate, NavLink, Outlet, resolvePath, useLocation, useMatch, useNavigate, useOutlet, useOutletContext, useParams, useResolvedPath, useRoutes, useSearchParams, useAppData, useClientLoaderData, useRouteProps, useSelectedRoutes, useServerLoaderData, renderClient, __getRoot, Link, useRouteData, __useFetcher, withRouter } from '/Users/jiangxue/FrontEnd/React-weatherTest/node_modules/.pnpm/registry.npmjs.org+@umijs+renderer-react@4.2.9_react-dom@18.1.0_react@18.1.0/node_modules/@umijs/renderer-react';
 export type { History } from '/Users/jiangxue/FrontEnd/React-weatherTest/node_modules/.pnpm/registry.npmjs.org+@umijs+renderer-react@4.2.9_react-dom@18.1.0_react@18.1.0/node_modules/@umijs/renderer-react'
 // umi/client/client/plugin
-export { ApplyPluginsType, PluginManager } from '/Users/jiangxue/FrontEnd/React-weatherTest/node_modules/.pnpm/registry.npmjs.org+umi@4.2.9_@babel+core@7.24.6_@types+react@18.3.3_eslint@8.57.0_prettier@3._yfjlzlzlvx5ilry3twaep7vjpu/node_modules/umi/client/client/plugin.js';
+export { ApplyPluginsType, PluginManager } from '/Users/jiangxue/FrontEnd/React-weatherTest/node_modules/.pnpm/registry.npmjs.org+umi@4.2.9_@babel+core@7.24.6_eslint@8.57.0_prettier@3.3.0_react-dom@18.3.1_y2hz6tl5b7px5o76xirf6t6oxq/node_modules/umi/client/client/plugin.js';
 export { history, createHistory } from './core/history';
 export { terminal } from './core/terminal';
 // react ssr

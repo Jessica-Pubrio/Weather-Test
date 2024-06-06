@@ -46,7 +46,7 @@ export default function Layout() {
             setWeatherInfo(data);
         }).catch(error => {
             console.error('Error:', error)
-            message.warning('No data found. Please make sure you enter the correct city name');
+            message.warning(<MessageContent />);
         }).finally(() => {
             setSearchLoading(false);
             setLoadingId(null);
@@ -67,3 +67,10 @@ export default function Layout() {
     </div>
   );
 }
+
+const MessageContent = () => (
+  <div>
+    No data found.<br />
+    Please make sure you enter the correct city name.
+  </div>
+);
