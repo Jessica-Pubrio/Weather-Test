@@ -3,13 +3,13 @@
 // DO NOT CHANGE IT MANUALLY!
 import React, { useEffect, useState } from 'react';
 import { ApplyPluginsType } from 'umi';
-import { renderClient, RenderClientOpts } from '/Users/jiangxue/FrontEnd/Pubrio/Weather-Test/node_modules/.pnpm/registry.npmjs.org+@umijs+renderer-react@4.2.9_react-dom@18.1.0_react@18.1.0/node_modules/@umijs/renderer-react';
+import { renderClient, RenderClientOpts } from '/Users/jiangxue/FrontEnd/React-weatherTest/node_modules/.pnpm/registry.npmjs.org+@umijs+renderer-react@4.2.9_react-dom@18.1.0_react@18.1.0/node_modules/@umijs/renderer-react';
 import { createHistory } from './core/history';
 import { createPluginManager } from './core/plugin';
 import { getRoutes } from './core/route';
 import type { Location } from 'history';
 
-import '/Users/jiangxue/FrontEnd/Pubrio/Weather-Test/src/global.less';
+import '/Users/jiangxue/FrontEnd/React-weatherTest/src/global.less';
 const publicPath = '/';
 const runtimePublicPath = false;
 

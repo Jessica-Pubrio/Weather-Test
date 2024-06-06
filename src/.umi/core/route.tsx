@@ -26,7 +26,7 @@ export async function getRoutes() {
 'panel/historyItem': React.lazy(() => import(/* webpackChunkName: "src__pages__panel__historyItem" */'../../../src/pages/panel/historyItem.jsx')),
 'search/search': React.lazy(() => import(/* webpackChunkName: "src__pages__search__search" */'../../../src/pages/search/search.jsx')),
 'panel/index': React.lazy(() => import(/* webpackChunkName: "src__pages__panel__index" */'../../../src/pages/panel/index.jsx')),
-'@@/global-layout': React.lazy(() => import(/* webpackChunkName: "layouts__index" */'/Users/jiangxue/FrontEnd/Pubrio/Weather-Test/src/layouts/index.jsx')),
+'@@/global-layout': React.lazy(() => import(/* webpackChunkName: "layouts__index" */'/Users/jiangxue/FrontEnd/React-weatherTest/src/layouts/index.jsx')),
 },
   };
 }
